@@ -25,7 +25,7 @@ const emit = defineEmits<{
     style="border-radius: 32px; padding: 18px;"
   >
     <!-- Video Container -->
-    <div class="relative overflow-hidden" style="padding-bottom: 100%; border-radius: 24px;">
+    <div class="relative overflow-hidden" style="padding-bottom: 100%; border-radius: 24px;" @click.stop="emit('open')">
       <video
         class="absolute inset-0 w-full h-full object-cover"
         autoPlay

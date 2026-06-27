@@ -14,7 +14,9 @@ export default {
     greeting: 'Hello!',
     name: "I'm orbis",
     accent: 'Orbis',
-    description: 'A digital object fixed beyond time and place. An exploration of distance, form, and silence in space',
+    description1: 'A digital object fixed beyond time and place. An exploration of distance, form, and silence in space',
+    description2: 'A digital entity frozen in eternity. A dialogue between form and emptiness, where distance becomes the language of silence',
+    description3: 'An object born from code and stillness. An exploration of the boundaries between presence and remoteness — a form suspended between infinities',
   },
   collection: {
     titleLine1: 'Collection of',

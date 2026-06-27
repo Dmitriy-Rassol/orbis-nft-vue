@@ -17,9 +17,6 @@ const navLinks = [
 
 <template>
   <div class="bg-background min-h-screen overflow-x-hidden">
-    <!-- Texture Overlay -->
-    <div class="texture-overlay" />
-
     <!-- Fixed Navbar -->
     <header
       class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between mx-auto px-6 sm:px-10 md:px-16 lg:px-20"

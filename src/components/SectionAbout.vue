@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{ t: any }>()
 
-const videoUrl = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_151551_992053d1-3d3e-4b8c-abac-45f22158f411.mp4'
+const videoUrl = '../video/info.mp4'
 </script>
 
 <template>
@@ -39,27 +39,22 @@ const videoUrl = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH
 
         <!-- Right - Paragraph -->
         <p class="font-mono uppercase text-cream leading-relaxed" style="font-size: 14px; max-width: 266px;">
-          {{ t.about.description }}
+          {{ t.about.description1 }}
         </p>
       </div>
 
       <!-- Bottom Row -->
       <div class="flex justify-between mt-20 lg:mt-32">
         <div class="flex flex-col gap-4">
-          <p class="font-mono uppercase leading-relaxed" style="font-size: 14px; max-width: 266px; color: #010828;">
-            {{ t.about.description }}
-          </p>
-          <p class="font-mono uppercase leading-relaxed" style="font-size: 14px; max-width: 266px; color: #010828;">
-            {{ t.about.description }}
-          </p>
+          
         </div>
 
         <div class="hidden lg:flex flex-col gap-4">
-          <p class="font-mono uppercase text-cream/10 leading-relaxed" style="font-size: 14px; max-width: 266px;">
-            {{ t.about.description }}
+          <p class="font-mono uppercase leading-relaxed" style="font-size: 14px; max-width: 266px;">
+            {{ t.about.description2 }}
           </p>
-          <p class="font-mono uppercase text-cream/10 leading-relaxed" style="font-size: 14px; max-width: 266px;">
-            {{ t.about.description }}
+          <p class="font-mono uppercase leading-relaxed" style="font-size: 14px; max-width: 266px;">
+            {{ t.about.description3 }}
           </p>
         </div>
       </div>

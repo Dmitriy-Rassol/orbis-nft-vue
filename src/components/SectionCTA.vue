@@ -3,7 +3,7 @@ import { Mail } from '@lucide/vue'
 
 defineProps<{ t: any }>()
 
-const videoUrl = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055729_72d66327-b59e-4ae9-bb70-de6ccb5ecdb0.mp4'
+const videoUrl = '../video/footer.mp4'
 </script>
 
 <template>
